@@ -1,0 +1,83 @@
+body{
+    background-image: url(../WEBBASED/media/wallpaper/wp3974336-spellbreak-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+.navigation{
+    padding-top: 0px;
+    width: auto;
+    background-color: black;
+    text-align: center;
+    opacity: 80%;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    opacity: 100%;
+}
+
+nav a:hover{
+    background-color: rgb(133, 133, 133);
+    color: black;
+}
+
+nav a.active{
+    background-color: #4caf50;
+    color: white;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5000px;
+    font-size: 28px;
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.content{
+    display: grid;
+    align-content: center;
+    grid: auto auto auto auto / auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.intro{
+    text-align: justify;
+    color: #fbc16d;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    color: #fbc16d;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    text-align: center;
+}
+
+.description{
+    text-align: justify;
+    color: #fbc16d;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}

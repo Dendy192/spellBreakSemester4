@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy</title>
+    <link rel="stylesheet" href="buy.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="containt">
+        <div class="navigation">
+            <nav>
+                <a href="index.html"><img src="../WEBBASED/MEDIA/components/spellbreak-logo-small.png" alt="" width="70px" height="auto"></a>
+                <a href="index.html">HOME</a>
+                <a href="media.html">MEDIA</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="community.html">COMMUNITY</a>
+                <a href="buy.html">BUY</a>
+            </nav>
+        </div>
+
+        <div class="formnya">
+            <form action="" onsubmit="return cekForm()">
+                <table>
+                    <tr>
+                        <td>Full Name</td>
+                        <td>:</td>
+                        <td><input type="text" name="fName" id="fName"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input type="text" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>:</td>
+                        <td><input type="text" name="uName" id="uName"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>:</td>
+                        <td><input type="password" name="pass" id="pass"></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td>:</td>
+                        <td><input type="password" name="cPass" id="cPass"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>:</td>
+                        <td>
+                            <div id="rd">
+                                <input type="radio" name="gender" id="male" value="Male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="female" value="Female">
+                                <label for="female">Female</label>
+                            </div>                    
+                    </tr>
+                    <tr>
+                        <td>Quantity</td>
+                        <td>:</td>
+                        <td><input type="number" name="qty" id="qty"></td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>:</td>
+                        <td><textarea name="addrs" id="addrs" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Aggreement</td>
+                        <td>:</td>
+                        <td>
+                        <input type="checkbox" id="checkbox" value="I Agree">
+                        <label for="checkbox">I accept the aggrement</label>
+                        </td>
+                        
+                    </tr>
+                </table>
+                
+            </form>
+
+            <br>
+            <br>
+            
+            <div class="joinbutton">
+                <div class="vertical-center">
+                    <button id="btn" type="submit" onclick="cekForm()">Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
